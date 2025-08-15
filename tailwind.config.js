@@ -1,0 +1,56 @@
+export default {
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  theme: {
+    extend: {
+      colors: {
+        primary: {
+          50: '#fdf8f6',
+          100: '#f2e8e5',
+          200: '#eaddd7',
+          300: '#e0cec7',
+          400: '#d2bab0',
+          500: '#bfa094',
+          600: '#a18072',
+          700: '#977669',
+          800: '#846358',
+          900: '#43302b',
+          950: '#2d1e1a',
+        },
+        secondary: {
+          50: '#f8f4f3',
+          100: '#f0e7e4',
+          200: '#e2d1ca',
+          300: '#cfb5aa',
+          400: '#b8927f',
+          500: '#a67c69',
+          600: '#8d6550',
+          700: '#785540',
+          800: '#634937',
+          900: '#523e31',
+          950: '#2b1f18',
+        },
+        accent: {
+          50: '#fef7ee',
+          100: '#fdedd6',
+          200: '#fad7ac',
+          300: '#f6bc77',
+          400: '#f19640',
+          500: '#ed7a1a',
+          600: '#de6210',
+          700: '#b84a10',
+          800: '#933c14',
+          900: '#773214',
+        },
+      },
+      fontFamily: {
+        serif: ['Playfair Display', 'serif'],
+        sans: ['Inter', 'sans-serif'],
+      },
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+        'text-gradient': 'linear-gradient(135deg, #ed7a1a, #de6210, #b84a10)',
+      },
+    },
+  },
+  plugins: [],
+};
